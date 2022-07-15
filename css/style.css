@@ -1,0 +1,834 @@
+.promo {
+  background: url("../bg/promo_bg.png") center;
+  min-height: 790px;
+  max-width: 1600px; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menu {
+  margin-top: 42px; }
+
+.menu_icon {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translateX(-33px);
+          transform: translateX(-33px); }
+
+.menu_item {
+  width: 43px;
+  height: 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 28px;
+  opacity: 0.7;
+  text-decoration: none; }
+  .menu_item:hover {
+    opacity: 1;
+    color: #fff; }
+
+button {
+  margin-top: 25px;
+  background: #F6762C;
+  border: none;
+  border-radius: 5px;
+  width: 165px;
+  height: 49px;
+  color: #FFFFFF;
+  cursor: pointer; }
+
+.promo_title {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  left: 229px;
+  margin-top: 150px; }
+
+.promo_subtitle {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 57.33px;
+  margin-top: 10px; }
+
+.promo_descr {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 18px;
+  width: 523px;
+  margin-top: 37px; }
+
+.promo_button {
+  margin-top: 42px; }
+
+.foods {
+  background: #1C1C1C;
+  padding: 115px 0 102px 0; }
+
+.food_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.food_item {
+  max-width: 260px;
+  height: 323px;
+  background: #312F30;
+  border-radius: 10px; }
+
+.food_title {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 28px; }
+
+.food_descr {
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 13px;
+  max-width: 210px;
+  max-height: 49px; }
+
+.order {
+  background: #312F30;
+  max-width: 1600px;
+  height: 543px; }
+
+.order_burger {
+  position: absolute;
+  width: 549px;
+  height: 499px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left; }
+
+.order_info {
+  position: absolute;
+  width: 371px;
+  height: 214px;
+  -webkit-transform: translateX(685px);
+          transform: translateX(685px);
+  margin-top: 165px; }
+
+.order_title {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px; }
+
+.order_descr {
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 24px; }
+
+.order_price {
+  color: #F6762C;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  margin-top: 13px; }
+  .order_price span {
+    opacity: 0.5;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+    font-size: 16px;
+    line-height: 19px; }
+
+.products {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+.product {
+  background: #1C1C1C; }
+  .product_item1 {
+    background: url("../img/Dairy_Queen.png");
+    width: 555px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-right: 5px; }
+  .product_item2 {
+    background: url("../img/pizza_hut.png");
+    width: 555px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-left: 5px; }
+  .product_item3 {
+    background: url("../img/CDSDQwsqfD 1.png");
+    width: 555px;
+    height: 300px; }
+  .product_item4 {
+    background: url("../img/Papa_Johns.png");
+    width: 555px;
+    height: 300px;
+    margin-left: 5px; }
+  .product_round {
+    position: absolute;
+    -webkit-transform: translateX(123%);
+            transform: translateX(123%);
+    padding-top: 60px; }
+  .product_round1 {
+    position: absolute;
+    padding: 60px 50px 60px; }
+  .product_title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px; }
+  .product_descr {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-top: 30px; }
+  .product_price {
+    color: #F6762C;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 11px; }
+    .product_price span {
+      -webkit-text-decoration-line: line-through;
+              text-decoration-line: line-through;
+      opacity: 0.5; }
+  .product_button {
+    width: 141px;
+    height: 39px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 13px; }
+
+.feedback {
+  background: #1C1C1C;
+  height: 555px; }
+
+.clients {
+  position: absolute; }
+
+.ellipse_1 {
+  width: 346px;
+  height: 346px;
+  margin-left: 190px; }
+
+.ellipse_2 {
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  -webkit-transform: translateX(-127%);
+          transform: translateX(-127%);
+  margin-top: 55px; }
+
+.client_5 {
+  -webkit-transform: translateX(-122%);
+          transform: translateX(-122%); }
+.client_1 {
+  position: absolute;
+  -webkit-transform: translateX(-130%);
+          transform: translateX(-130%); }
+.client_2 {
+  position: absolute;
+  -webkit-transform: translateX(-116%);
+          transform: translateX(-116%);
+  margin-top: 223px; }
+.client_3 {
+  position: absolute;
+  -webkit-transform: translateX(-380%);
+          transform: translateX(-380%);
+  margin-top: 272px; }
+.client_4 {
+  position: absolute;
+  -webkit-transform: translateX(-440%);
+          transform: translateX(-440%);
+  margin-top: 50px; }
+
+.circle {
+  margin-left: 815px;
+  margin-top: 100px; }
+
+.vector {
+  -webkit-transform: translateX(-51px);
+          transform: translateX(-51px);
+  margin-top: 115px; }
+
+.comment_text {
+  position: absolute;
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 30px;
+  left: 860px; }
+
+.author {
+  position: absolute;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  left: 950px;
+  margin-top: 110px; }
+  .author span {
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px; }
+
+.download {
+  padding: 62px 0;
+  height: 170px;
+  background: #312F30; }
+  .download_title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    position: absolute;
+    -webkit-transform: translateX(85px);
+            transform: translateX(85px); }
+  .download_button {
+    position: absolute;
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+    left: 1080px; }
+
+footer {
+  padding: 126px 0 140px 0;
+  background: #1C1C1C;
+  min-height: 380px; }
+  footer .footer_logo {
+    -webkit-transform: translateX(-37px);
+            transform: translateX(-37px);
+    position: absolute; }
+    footer .footer_logo img {
+      width: 125px;
+      height: 125px; }
+  footer .footer_mail {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px; }
+  footer .footer_site {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px; }
+  footer .footer_item {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    -webkit-transform: translateX(-40px);
+            transform: translateX(-40px);
+    margin-top: 14px; }
+  footer .footer_title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; }
+  footer .footer_addresses {
+    position: absolute;
+    margin-top: 100px; }
+  footer .footer_menu {
+    position: absolute;
+    margin-top: 30px;
+    -webkit-transform: translateX(250px);
+            transform: translateX(250px); }
+  footer .footer_info {
+    position: absolute;
+    margin-top: 30px;
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px); }
+  footer .footer_links {
+    position: absolute;
+    margin-top: 30px;
+    -webkit-transform: translateX(750px);
+            transform: translateX(750px); }
+  footer .footer_social {
+    position: absolute;
+    margin-top: 30px;
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    footer .footer_social_item {
+      margin-top: 32px;
+      position: relative;
+      -webkit-transform: translateX(-105px);
+              transform: translateX(-105px);
+      margin-right: 10px;
+      width: 15px;
+      height: 15px; }
+
+@media (max-width: 1200px) {
+  .promo {
+    max-width: 1200px; }
+
+  .container {
+    max-width: 960px; }
+
+  .promo_subtitle {
+    font-size: 50px; }
+
+  .promo_descr {
+    font-size: 16px;
+    width: 470px; }
+
+  .food_item {
+    width: 220px;
+    height: 300px; }
+    .food_item img {
+      width: 220px; }
+
+  .food_title {
+    font-size: 18px; }
+
+  .food_descr {
+    font-size: 14px; }
+
+  .order {
+    max-width: 1200px; }
+
+  .order_title {
+    font-size: 41px; }
+
+  .order_descr {
+    font-size: 14px; }
+
+  .order_price {
+    font-size: 18px; }
+
+  .product {
+    max-width: 1200px; }
+
+  .product_round {
+    padding-top: 15px;
+    -webkit-transform: translateX(145%);
+            transform: translateX(145%); }
+
+  .product_round1 {
+    padding: 15px 50px 60px; }
+
+  .product_item1 {
+    width: 450px; }
+
+  .product_item2 {
+    width: 450px; }
+
+  .product_item3 {
+    width: 450px; }
+
+  .product_item4 {
+    width: 450px; }
+
+  .product_title {
+    font-size: 22px; }
+
+  .product_descr {
+    font-size: 12px;
+    margin-top: 5px; }
+
+  .product_price {
+    font-size: 14px; }
+
+  .feedback {
+    height: 500px; }
+
+  .clients {
+    left: 20px; }
+
+  .comment_text {
+    font-size: 14px;
+    left: 810px; }
+
+  .author {
+    font-size: 21px;
+    left: 894px;
+    margin-top: 100px; }
+
+  .download_title {
+    font-size: 35px;
+    left: 90px; }
+  .download_button {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+    left: 900px; }
+
+  .footer_addresses {
+    left: 80px; }
+  .footer_logo {
+    left: 80px; }
+  .footer_menu {
+    left: 80px; }
+  .footer_info {
+    left: 80px; }
+  .footer_links {
+    left: 80px; }
+  .footer_social {
+    left: 55px;
+    margin-top: 33px; } }
+@media (max-width: 991px) {
+  .promo {
+    max-width: 991px; }
+
+  button {
+    margin-top: 34px;
+    width: 140px;
+    height: 42px; }
+
+  .container {
+    max-width: 910px; }
+
+  .promo_subtitle {
+    font-size: 46px; }
+
+  .promo_descr {
+    font-size: 15px;
+    width: 440px; }
+
+  .food_item {
+    max-width: 200px;
+    height: 270px; }
+    .food_item img {
+      width: 200px; }
+
+  .food_title {
+    font-size: 17px; }
+
+  .food_descr {
+    font-size: 12px; }
+
+  .order {
+    height: 480px; }
+
+  .order_burger {
+    width: 500px;
+    height: 450px;
+    left: 20px; }
+
+  .order_info {
+    -webkit-transform: translateX(550px);
+            transform: translateX(550px);
+    margin-top: 140px; }
+
+  .products {
+    padding-top: 90px;
+    padding-bottom: 65px; }
+
+  .product_round {
+    -webkit-transform: translateX(153%);
+            transform: translateX(153%); }
+
+  .product_round1 {
+    padding: 15px 27px 60px; }
+
+  .product_item1 {
+    width: 420px;
+    height: 250px; }
+
+  .product_item2 {
+    width: 420px;
+    height: 250px; }
+
+  .product_item3 {
+    width: 420px;
+    height: 250px; }
+
+  .product_item4 {
+    width: 420px;
+    height: 250px; }
+
+  .product_title {
+    font-size: 20px; }
+
+  .product_descr {
+    font-size: 11px; }
+
+  .product_price {
+    font-size: 13px; }
+
+  .feedback {
+    height: 470px; }
+
+  .clients {
+    left: -50px;
+    margin-top: 15px; }
+
+  .circle {
+    margin-left: 650px; }
+
+  .comment_text {
+    left: 565px; }
+
+  .author {
+    left: 645px; }
+
+  .download_title {
+    left: 10px; }
+
+  .download_button {
+    left: 750px;
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px); }
+
+  footer {
+    padding: 35px 0 50px 0;
+    min-height: 250px; }
+
+  .footer_logo {
+    left: 40px; }
+  .footer_addresses {
+    left: 40px; }
+  .footer_menu {
+    left: 40px; }
+  .footer_info {
+    left: -40px; }
+  .footer_links {
+    left: -100px; }
+  .footer_social {
+    left: -160px; } }
+@media (max-width: 767px) {
+  .promo {
+    min-height: 700px; }
+
+  .container {
+    max-width: 700px; }
+
+  .menu {
+    padding-left: 0;
+    -webkit-transform: translateX(-15px);
+            transform: translateX(-15px); }
+
+  .menu_item {
+    font-size: 12px;
+    margin: 16px; }
+
+  button {
+    width: 130px;
+    height: 37px;
+    font-size: 11px; }
+
+  .promo_subtitle {
+    font-size: 38px; }
+
+  .promo_title {
+    font-size: 12px; }
+
+  .promo_descr {
+    font-size: 14px;
+    width: 380px; }
+
+  .food_item {
+    max-width: 155px;
+    height: 210px; }
+    .food_item img {
+      max-width: 155px; }
+
+  .food_title {
+    margin-top: 10px;
+    font-size: 14px; }
+
+  .food_descr {
+    line-height: 16px;
+    font-size: 11px; }
+
+  .order {
+    height: 400px; }
+
+  .order_burger {
+    width: 400px;
+    height: 380px; }
+
+  .order_info {
+    margin-top: 85px;
+    -webkit-transform: translateX(450px);
+            transform: translateX(450px); }
+
+  .order_title {
+    font-size: 30px; }
+
+  .order_descr {
+    font-size: 11.5px;
+    line-height: 17px;
+    margin-top: 17px; }
+
+  .order_price {
+    font-size: 14px; }
+    .order_price span {
+      font-size: 14px; }
+
+  .order_button {
+    width: 130px;
+    height: 37px;
+    font-size: 11px; }
+
+  .products {
+    padding-left: 15px; }
+
+  .col-md-6 {
+    -ms-flex-preferred-size: content;
+        flex-basis: content; }
+
+  .product_item1 {
+    width: 300px;
+    height: 170px;
+    background-size: cover; }
+
+  .product_item2 {
+    width: 300px;
+    height: 170px;
+    background-size: cover; }
+
+  .product_item3 {
+    width: 300px;
+    height: 170px;
+    background-size: cover; }
+
+  .product_item4 {
+    width: 300px;
+    height: 170px;
+    background-size: cover; }
+
+  .product_round1 {
+    padding: 15px 22px 60px; }
+
+  .product_round {
+    -webkit-transform: translateX(105%);
+            transform: translateX(105%); }
+
+  .product_title {
+    font-size: 17px; }
+
+  .product_descr {
+    font-size: 9.5px; }
+
+  .product_button {
+    width: 130px;
+    height: 35px; }
+
+  .feedback {
+    height: 350px; }
+
+  .ellipse_1 {
+    width: 240px;
+    height: 240px; }
+
+  .ellipse_2 {
+    width: 150px;
+    height: 150px;
+    -webkit-transform: translateX(-132%);
+            transform: translateX(-132%);
+    margin-top: 49px; }
+
+  .client_1 {
+    width: 52px;
+    -webkit-transform: translateX(-155%);
+            transform: translateX(-155%); }
+
+  .client_2 {
+    width: 55px;
+    margin-top: 157px; }
+
+  .client_3 {
+    width: 58px;
+    -webkit-transform: translateX(-370%);
+            transform: translateX(-370%);
+    margin-top: 185px; }
+
+  .client_4 {
+    width: 65px;
+    margin-top: 30px;
+    -webkit-transform: translateX(-400%);
+            transform: translateX(-400%); }
+
+  .client_5 {
+    width: 172px;
+    -webkit-transform: translateX(-122%);
+            transform: translateX(-122%);
+    margin-top: 16px; }
+
+  .circle {
+    margin-left: 515px;
+    width: 32px;
+    margin-top: 85px; }
+
+  .vector {
+    width: 13px;
+    -webkit-transform: translateX(-39px);
+            transform: translateX(-39px);
+    margin-top: 95px; }
+
+  .comment_text {
+    left: 450px;
+    font-size: 11px;
+    line-height: 14px; }
+
+  .author {
+    font-size: 17px;
+    left: 512px;
+    margin-top: 85px;
+    line-height: 15px; }
+    .author span {
+      font-size: 9px; }
+
+  .download {
+    height: 130px;
+    padding: 40px 0; }
+    .download_title {
+      font-size: 27px;
+      left: -10px; }
+    .download_button {
+      left: 550px; }
+
+  footer .footer_addresses {
+    margin-top: 90px; }
+  footer .footer_logo img {
+    width: 110px;
+    height: 110px; }
+  footer .footer_mail {
+    font-size: 11px; }
+  footer .footer_site {
+    font-size: 11px; }
+  footer .footer_title {
+    font-size: 14px; }
+  footer .footer_item {
+    font-size: 11px;
+    margin-top: 10px; }
+  footer .footer_menu {
+    left: 10px; }
+  footer .footer_info {
+    left: -70px; }
+  footer .footer_links {
+    left: -130px; } }
+
+/*# sourceMappingURL=style.css.map */
